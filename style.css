@@ -1,0 +1,35 @@
+/* Source: https://developers.google.com/maps/documentation/javascript/overview#maps_map_simple-css */
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+
+.flex-container {
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-item {
+  padding: 5px;
+  margin-top: 10px;
+}
+#map {
+  height: 80vh;
+  width: 80vh;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#quiz { 
+  margin-bottom: 15em;
+  font-size: 1.5em;
+  border-left: 6px solid blue;
+  background-color:rgba(231, 237, 251, 0.8);
+}
