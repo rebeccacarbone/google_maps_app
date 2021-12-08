@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="flex-container">
+    <div id="quiz" class="flex-item">
+      Where is the University Library?
+      </div>
+    <div id="map" class="flex-item"></div>
+    </div>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPnPLX-g9YHvNEPYUarjGogfsszCNTKkQ&callback=initMap&v=weekly&channel=2"
+      async
+    ></script>
+  </body>
+</html>
